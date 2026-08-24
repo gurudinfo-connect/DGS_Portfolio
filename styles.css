@@ -540,6 +540,21 @@
   .footer-col a.underline-link{ border-bottom:1px solid rgba(255,255,255,0.3); padding-bottom:2px; transition:border-color .3s ease, color .3s ease; }
   .footer-col a.underline-link:hover{ border-color:#fff; color:#fff; }
 
+  .footer-social{ display:flex; align-items:center; gap:14px; }
+  .social-btn{
+    display:flex; align-items:center; justify-content:center;
+    width:44px; height:44px; border-radius:50%;
+    border:1px solid rgba(255,255,255,0.18);
+    color:var(--muted);
+    transition:background .25s ease, color .25s ease, border-color .25s ease, transform .25s ease;
+  }
+  .social-btn:hover{
+    background:var(--red);
+    border-color:var(--red);
+    color:#fff;
+    transform:translateY(-3px);
+  }
+
   .footer-hero-text{
     font-family:var(--font-display); color:#3a3a3a;
     font-size:clamp(28px, 5vw, 64px); line-height:0.95; text-align:center; letter-spacing:-0.02em;
