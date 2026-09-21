@@ -74,8 +74,35 @@ A student learning platform providing programming resources, coding practice, an
 ### 🎙️ Voice AI Agent
 An intelligent conversational AI assistant powered by Large Language Models.
 
-### 🏛️ Rajarajeshwari Constructions
-A responsive construction company website showcasing temple architecture and construction services.
+### 🏋️ FitLedger — Gym Billing & Inventory
+React + FastAPI point-of-sale billing app for a gym with an oversell-safe stock ledger and Razorpay payments.
+
+### 🎓 Go.Varlin LMS Dashboard
+Django-backed student dashboard with a course player, assignments, tests, certificates and placements.
+
+### 🚀 Join with Founder.in
+React + Framer Motion community site for early-stage founders, with a join-application flow and admin dashboard.
+
+### 📚 EduVAV
+Ed-tech marketing site for career-track courses, with a registration modal and support chatbot.
+
+### 👗 Vastrika
+Premium handcrafted fashion brand site with a before/after slider and a live-pricing customization wizard.
+
+### 🏛️ Guruprana Constructions
+Multi-page marketing site for a temple and residential construction firm.
+
+### 💆 Isiri Global Spa
+Treatments-and-membership site for a Bengaluru spa.
+
+### 🚗 Happy Wheels
+Self-drive car rental site for a Puttur-based rental business.
+
+### 🛠️ Break Down
+24×7 roadside assistance site with a 150-frame scroll-driven hero animation.
+
+### 📊 Clinic Report
+Power BI dashboard for clinic operations, connected to a live streaming dataset.
 
 ---
 
