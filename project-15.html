@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flipkart Sales Dashboard — Excel — Guru Soma Sekhar</title>
+<meta name="description" content="Interactive Excel sales dashboard for Flipkart-style retail data, built entirely with pivot tables, pivot charts and slicers.">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/favicon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/favicon-180.png">
+<link rel="shortcut icon" href="assets/favicon/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Archivo+Black&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header id="navbar" class="scrolled">
+  <nav class="container nav-inner">
+    <a href="index.html#hero" class="nav-logo">Guru<span class="dot">.D</span></a>
+    <ul class="nav-menu">
+      <li><a href="index.html#hero">Home</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#skills">Skills</a></li>
+      <li><a href="index.html#projects">Projects</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+    <a href="index.html#footer" class="hire-btn">Hire Me</a>
+    <button class="nav-burger" id="burgerBtn" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<div id="mobile-panel">
+  <button class="close-btn" id="closeBurger" aria-label="Close menu">&times;</button>
+  <ul>
+    <li><a href="index.html#hero">Home</a></li>
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="index.html#skills">Skills</a></li>
+    <li><a href="index.html#projects">Projects</a></li>
+    <li><a href="index.html#contact">Contact</a></li>
+  </ul>
+</div>
+<!-- ================= PROJECT HERO ================= -->
+<section class="project-hero">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="index.html#projects">Projects</a>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+      <span>Flipkart Sales Dashboard</span>
+    </div>
+    <span class="project-hero-eyebrow">15 / Flipkart Sales Dashboard</span>
+    <h1 class="project-hero-title">Flipkart Sales Dashboard</h1>
+    <p class="project-hero-sub">A fully interactive sales-analytics dashboard built inside Excel — no BI tool required — using pivot tables, pivot charts and slicers on top of Flipkart-style retail transaction data.</p>
+    <div class="project-meta-row">
+      <span class="tag">Microsoft Excel</span>
+      <span class="tag">Pivot Tables</span>
+      <span class="tag">Slicers</span>
+    </div>
+    <div class="project-links">
+      <a href="assets/projects/15-flipkart-dashboard/Flipkart_sales_dashboard.xlsx" class="btn-primary" download="Flipkart_sales_dashboard.xlsx"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg> Excel Dashboard (.xlsx)</a>
+    </div>
+
+    <div class="project-cover reveal">
+      <img src="assets/projects/15-flipkart-dashboard/cover.jpg" alt="Flipkart Sales Dashboard cover screenshot">
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJECT BODY ================= -->
+<section class="project-body">
+  <div class="container">
+
+    <div class="project-block reveal">
+      <h2>Overview</h2>
+      <p>This is an Excel-native dashboard rather than a web app — every visual on the page is a pivot chart wired to a set of pivot tables, so a store manager can read total sales, tax, average unit price and quantity sold, then slice the whole page by gender, product line, payment method or customer type without writing a single formula.</p><p>The working pivot tables sit on their own sheets so the source numbers stay auditable, while the dashboard sheet pulls everything together into one printable view.</p>
+    </div>
+
+    <div class="project-block reveal">
+      <h2>Key Features</h2>
+    </div>
+    <div class="feature-list reveal">
+      <div class="feature-item">
+        <div class="feature-dot"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></div>
+        <div>
+          <h4>KPI Header Cards</h4>
+          <p>Total sales, tax, average unit price and quantity sold, summarised as pivot-table-driven header tiles.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-dot"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6l8-4z"/></svg></div>
+        <div>
+          <h4>Cross-Filtering Slicers</h4>
+          <p>Gender, product line, payment method and customer-type slicers filter every chart on the sheet at once.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-dot"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L4 14h6l-1 8 9-12h-6l1-8z"/></svg></div>
+        <div>
+          <h4>Multi-Chart Layout</h4>
+          <p>Product-sales bar chart, city-vs-customer line chart, city sales bar-in-bar chart and donut/pie splits, all pivot-chart driven.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-dot"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18M8 17V9m4 8V5m4 12v-6"/></svg></div>
+        <div>
+          <h4>Pivot-Table Backed</h4>
+          <p>Working pivot tables sit on their own sheets, so every visual updates the moment the source data refreshes.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-block reveal">
+      <h2>Screens</h2>
+      <p>A closer look at the working sheets behind the dashboard. Screenshots below are placeholders — swap the files in assets/projects/15-flipkart-dashboard/ with real captures once the workbook is finalized.</p>
+    </div>
+    <div class="project-gallery reveal">
+      <div class="gallery-shot">
+        <img src="assets/projects/15-flipkart-dashboard/shot-1.jpg" alt="City vs customer type pivot table and chart with product-line slicer">
+      </div>
+      <div class="gallery-shot">
+        <img src="assets/projects/15-flipkart-dashboard/shot-2.jpg" alt="City count pivot table and pie chart with customer-type slicer">
+      </div>
+    </div>
+
+    <div class="project-block reveal">
+      <h2>Tech Stack</h2>
+    </div>
+    <div class="stack-pill-row reveal">
+      <span class="tag">Microsoft Excel</span>
+      <span class="tag">Pivot Tables</span>
+      <span class="tag">Pivot Charts</span>
+      <span class="tag">Slicers</span>
+    </div>
+
+    <div class="project-block reveal">
+      <h2>Role &amp; Challenges</h2>
+      <p>I built the underlying pivot tables and calculated fields from the raw transaction sheet, then assembled a single dashboard view wiring six pivot charts to a shared set of slicers so every visual filters together without any VBA or add-ins.</p>
+    </div>
+
+    <div class="project-nextprev reveal">
+      <a href="project-14.html" class="np-link np-prev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg><span>Clinic Report — Power BI</span></a>
+      <a href="project-16.html" class="np-link np-next"><span>Awesome Chocolates — Power BI Dashboard</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M7 17L17 7M7 7h10v10"/></svg></a>
+    </div>
+
+  </div>
+</section>
+
+<footer id="footer">
+  <div class="container footer-top">
+    <div class="footer-col">
+      <h5>What I Do</h5>
+      <p>Full-Stack Web Development</p>
+      <p>Generative AI &amp; LLM Apps</p>
+      <p>RAG &amp; AI Agent Workflows</p>
+      <p>UI / UX Implementation</p>
+    </div>
+    <div class="footer-col">
+      <h5>Status</h5>
+      <p>B.Tech CSE, Class of 2026</p>
+      <a class="underline-link" href="index.html#projects">View Work</a>
+    </div>
+    <div class="footer-col">
+      <h5>Availability</h5>
+      <p>Open to AI Engineer roles</p>
+      <p id="year-tag">2026</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2 class="footer-hero-text reveal in" id="footerHero">Guru soma sekhar</h2>
+  </div>
+
+  <div class="container footer-bottom">
+    <div>© <span id="year-copy">2026</span> Guru Soma Sekhar. Built with React &amp; Tailwind.</div>
+    <div class="fcenter"><a href="mailto:guru.d.info@gmail.com">guru.d.info@gmail.com</a></div>
+    <div class="fright"><a href="tel:+918374444525">+91 83744 44525</a></div>
+  </div>
+</footer>
+
+
+<script src="project.js"></script>
+
+</body>
+</html>
